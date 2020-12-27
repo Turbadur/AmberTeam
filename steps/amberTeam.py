@@ -3,7 +3,7 @@ from selenium import webdriver
 import time
 
 driver = webdriver.Chrome(
-    executable_path="C:/Users/Dzieci/PycharmProjects/AmberTeam/driver/chromedriver.exe")  # inicjalizacja zmiennej driver
+    executable_path="PATH/chromedriver.exe")  # inicjalizacja zmiennej driver
 
 
 @given('browser open with exercise 1')
